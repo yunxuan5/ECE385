@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="94.833 ns"></ZoomStartTime>
+      <ZoomEndTime time="729.834 ns"></ZoomEndTime>
+      <Cursor1Time time="401.833 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/testbench/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Din" type="array">
+      <obj_property name="ElementShortName">Din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/AVal" type="array">
+      <obj_property name="ElementShortName">AVal[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AVal[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BVal" type="array">
+      <obj_property name="ElementShortName">BVal[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BVal[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/hex_segA" type="logic">
+      <obj_property name="ElementShortName">hex_segA</obj_property>
+      <obj_property name="ObjectShortName">hex_segA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/hex_segB" type="logic">
+      <obj_property name="ElementShortName">hex_segB</obj_property>
+      <obj_property name="ObjectShortName">hex_segB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/hex_gridA" type="logic">
+      <obj_property name="ElementShortName">hex_gridA</obj_property>
+      <obj_property name="ObjectShortName">hex_gridA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/hex_gridB" type="logic">
+      <obj_property name="ElementShortName">hex_gridB</obj_property>
+      <obj_property name="ObjectShortName">hex_gridB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Xval" type="logic">
+      <obj_property name="ElementShortName">Xval</obj_property>
+      <obj_property name="ObjectShortName">Xval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Reset_Load_Clear" type="logic">
+      <obj_property name="ElementShortName">Reset_Load_Clear</obj_property>
+      <obj_property name="ObjectShortName">Reset_Load_Clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Run" type="logic">
+      <obj_property name="ElementShortName">Run</obj_property>
+      <obj_property name="ObjectShortName">Run</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/processor/u_control/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/processor/u_control/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/processor/u_control/shift_counter" type="array">
+      <obj_property name="ElementShortName">shift_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/processor/u_control/do_shift" type="logic">
+      <obj_property name="ElementShortName">do_shift</obj_property>
+      <obj_property name="ObjectShortName">do_shift</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/processor/reg_unit/Shift_En" type="logic">
+      <obj_property name="ElementShortName">Shift_En</obj_property>
+      <obj_property name="ObjectShortName">Shift_En</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/processor/reg_unit/X" type="logic">
+      <obj_property name="ElementShortName">X</obj_property>
+      <obj_property name="ObjectShortName">X</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/processor/reg_unit/A" type="array">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/processor/reg_unit/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+   </wvobject>
+</wave_config>

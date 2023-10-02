@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/yunxuan5/ECE385/lab4/Control.sv,1695276447,systemVerilog,,C:/Users/yunxuan5/ECE385/lab4/HexDriver.sv,,control,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab4/HexDriver.sv,1695270564,systemVerilog,,C:/Users/yunxuan5/ECE385/lab4/Register_unit.sv,,HexDriver,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab4/Register_unit.sv,1695277788,systemVerilog,,C:/Users/yunxuan5/ECE385/lab4/Synchronizers.sv,,register_unit,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab4/Synchronizers.sv,1695247911,systemVerilog,,C:/Users/yunxuan5/ECE385/lab4/lab4.srcs/sources_1/new/multiplier.sv,,sync;sync_r0;sync_r1,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab4/lab4.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab4/lab4.srcs/sim_1/new/testbench.sv,1695277798,systemVerilog,,,,testbench,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab4/lab4.srcs/sources_1/new/multiplier.sv,1695274924,systemVerilog,,C:/Users/yunxuan5/ECE385/lab4/ripple_adder.sv,,multiplier,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab4/ripple_adder.sv,1695266332,systemVerilog,,C:/Users/yunxuan5/ECE385/lab4/lab4.srcs/sim_1/new/testbench.sv,,full_adder;ripple_adder,,uvm,,,,,,

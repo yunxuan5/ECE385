@@ -1,0 +1,13 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/yunxuan5/ECE385/lab3/lab3.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/adder_toplevel.sv,1694649912,systemVerilog,,,,adder_toplevel,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/control.sv,1694641915,systemVerilog,,C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/hex.sv,,control,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/hex.sv,1694641915,systemVerilog,,C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/mux2_1_17.sv,,HexDriver,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/mux2_1_17.sv,1694641915,systemVerilog,,C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/reg_17.sv,,mux2_1_17,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/reg_17.sv,1694641915,systemVerilog,,C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/ripple_adder.sv,,reg_17,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/ripple_adder.sv,1694643682,systemVerilog,,C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/select_adder.sv,,full_adder;ripple_adder,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/select_adder.sv,1694654008,systemVerilog,,C:/Users/yunxuan5/ECE385/testbench_8.sv,,ripple_adder4;select_adder,,uvm,,,,,,
+C:/Users/yunxuan5/ECE385/testbench_8.sv,1694653799,systemVerilog,,,,testbench_8,,uvm,,,,,,

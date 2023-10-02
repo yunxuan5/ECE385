@@ -1,0 +1,81 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Processor.sv" Line 8. Module Processor_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Register_unit.sv" Line 1. Module register_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Reg_4.sv" Line 1. Module reg_8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Reg_4.sv" Line 1. Module reg_8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/compute.sv" Line 1. Module compute doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Router.sv" Line 1. Module router doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Control.sv" Line 3. Module control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/HexDriver.sv" Line 1. Module HexDriver_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/HexDriver.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/HexDriver.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/HexDriver.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/HexDriver.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Processor.sv" Line 8. Module Processor_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Register_unit.sv" Line 1. Module register_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Reg_4.sv" Line 1. Module reg_8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Reg_4.sv" Line 1. Module reg_8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/compute.sv" Line 1. Module compute doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Router.sv" Line 1. Module router doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Control.sv" Line 3. Module control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/HexDriver.sv" Line 1. Module HexDriver_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/HexDriver.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/HexDriver.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/HexDriver.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/HexDriver.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/HexDriver.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.reg_8
+Compiling module xil_defaultlib.register_unit
+Compiling module xil_defaultlib.compute
+Compiling module xil_defaultlib.router
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.nibble_to_hex
+Compiling module xil_defaultlib.HexDriver_default
+Compiling module xil_defaultlib.sync
+Compiling module xil_defaultlib.Processor_default
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

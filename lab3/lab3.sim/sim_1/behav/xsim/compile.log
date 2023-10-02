@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/yunxuan5/ECE385/lab3_provided_9_11/design_source/select_adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ripple_adder4
+INFO: [VRFC 10-311] analyzing module select_adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/yunxuan5/ECE385/testbench_8.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench_8

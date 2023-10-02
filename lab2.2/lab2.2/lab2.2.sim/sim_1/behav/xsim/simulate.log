@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+WARNING: 0ns : none of the conditions were true for unique case from File:E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/compute.sv:8
+WARNING: 0ns : none of the conditions were true for unique case from File:E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Router.sv:7
+WARNING: 0ns : none of the conditions were true for unique case from File:E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Router.sv:17
+WARNING: 0ns : none of the conditions were true for unique case from File:E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Control.sv:25
+WARNING: 10ns : none of the conditions were true for unique case from File:E:/ECE385/lab2.2/lab2.2/lab2.2.srcs/sources_1/imports/design_source/Control.sv:25
+Success!
