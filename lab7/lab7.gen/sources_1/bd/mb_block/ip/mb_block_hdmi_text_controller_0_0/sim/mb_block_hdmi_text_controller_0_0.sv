@@ -48,7 +48,7 @@
 
 
 // IP VLNV: uillinois.edu:user:hdmi_text_controller:1.0
-// IP Revision: 20
+// IP Revision: 24
 
 `timescale 1ns/1ps
 

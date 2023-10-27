@@ -48,7 +48,7 @@
 
 
 // IP VLNV: uillinois.edu:user:hdmi_text_controller:1.0
-// IP Revision: 20
+// IP Revision: 24
 
 (* X_CORE_INFO = "hdmi_text_controller_v1_0,Vivado 2022.2" *)
 (* CHECK_LICENSE_TYPE = "mb_block_hdmi_text_controller_0_0,hdmi_text_controller_v1_0,{}" *)
