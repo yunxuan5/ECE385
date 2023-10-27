@@ -1,0 +1,3 @@
+c clk_in1_clk_wiz_0 mmcm_adv_inst/CLKIN1       4700       4700 -2147483648 -2147483648
+c mmcm_adv_inst/CLKOUT1        clk_out2       5660       5660 -2147483648 -2147483648
+c mmcm_adv_inst/CLKOUT0        clk_out1       5660       5660 -2147483648 -2147483648
