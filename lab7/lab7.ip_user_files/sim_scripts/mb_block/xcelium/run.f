@@ -1,9 +1,9 @@
 -makelib xcelium_lib/xpm -sv \
-  "C:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
-  "C:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+  "D:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+  "D:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
 -endlib
 -makelib xcelium_lib/xpm \
-  "C:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_VCOMP.vhd" \
+  "D:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_VCOMP.vhd" \
 -endlib
 -makelib xcelium_lib/microblaze_v11_0_10 \
   "../../../../lab7.gen/sources_1/bd/mb_block/ipshared/1f7b/hdl/microblaze_v11_0_vh_rfs.vhd" \
@@ -108,11 +108,11 @@
   "../../../bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib -sv \
-  "../../../bd/mb_block/ipshared/a9c4/src/Color_Mapper.sv" \
-  "../../../bd/mb_block/ipshared/a9c4/src/VGA_controller.sv" \
-  "../../../bd/mb_block/ipshared/a9c4/src/font_rom.sv" \
-  "../../../bd/mb_block/ipshared/a9c4/src/hdmi_text_controller_v1_0_AXI.sv" \
-  "../../../bd/mb_block/ipshared/a9c4/src/hdmi_text_controller_v1_0.sv" \
+  "../../../bd/mb_block/ipshared/ce44/src/Color_Mapper.sv" \
+  "../../../bd/mb_block/ipshared/ce44/src/VGA_controller.sv" \
+  "../../../bd/mb_block/ipshared/ce44/src/font_rom.sv" \
+  "../../../bd/mb_block/ipshared/ce44/src/hdmi_text_controller_v1_0_AXI.sv" \
+  "../../../bd/mb_block/ipshared/ce44/src/hdmi_text_controller_v1_0.sv" \
   "../../../bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/sim/mb_block_hdmi_text_controller_0_0.sv" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \

@@ -1,6 +1,0 @@
-xilinx rtfpga
-rt::do_reinfer_area_combined 1
-INFO: [Synth 8-3886] merging instance 'axi_rresp_reg[0]' (FDRE) to 'axi_rresp_reg[1]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\axi_rresp_reg[1] )
-INFO: [Synth 8-3886] merging instance 'axi_bresp_reg[0]' (FDRE) to 'axi_bresp_reg[1]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\axi_bresp_reg[1] )
