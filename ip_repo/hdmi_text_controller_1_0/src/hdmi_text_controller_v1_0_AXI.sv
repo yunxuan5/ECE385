@@ -402,11 +402,18 @@ begin
 end    
 
 // Add user logic here
+<<<<<<< HEAD
 logic [11:0]x,y;
+=======
+//always_comb
+
+logic [11:0]x,y; // x and y charecters
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 
 logic [11:0]addr_o;
 logic [9:0] addr;
 
+<<<<<<< HEAD
 logic [C_S_AXI_DATA_WIDTH-1:0]data_out;
 
 always_comb begin
@@ -415,20 +422,40 @@ always_comb begin
     addr_o=(x+y);
     addr=(x+y)>>2;
     data_out=slv_regs[addr];
+=======
+logic [C_S_AXI_DATA_WIDTH-1:0]data_out; //read from VRAM
+assign x=(DrawX[9:3]); // charecter X in row
+assign y=(DrawY[9:4])*80; // row Y
+assign addr_o=(x+y); // charecter number
+assign addr=(x+y)>>2; // address to the VRAM
+assign data_out = slv_regs[addr]; //get the value from VRAM
+always_comb begin
+
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
     case (addr_o[1:0])
         2'b00: data = data_out[7:0];
         2'b01: data = data_out[15:8];
         2'b10: data = data_out[23:16];
         2'b11: data = data_out[31:24];
-        default: data = 32'b0;  
+        default: data = 8'b0;  
     endcase
 end
+<<<<<<< HEAD
 assign f_r=slv_regs[99][24:21];
 assign f_g=slv_regs[99][20:17];
 assign f_b=slv_regs[99][16:13];
 assign b_r=slv_regs[99][12:9];
 assign b_g=slv_regs[99][8:5];
 assign b_b=slv_regs[99][4:1];
+=======
+
+assign f_r=slv_regs[600][24:21];
+assign f_g=slv_regs[600][20:17];
+assign f_b=slv_regs[600][16:13];
+assign b_r=slv_regs[600][12:9];
+assign b_g=slv_regs[600][8:5];
+assign b_b=slv_regs[600][4:1];
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 // User logic ends
 
 endmodule

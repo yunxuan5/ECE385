@@ -2,10 +2,17 @@
 <Root MajorVersion="0" MinorVersion="40">
   <CompositeFile CompositeFileTopName="mb_block" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
+<<<<<<< HEAD
     <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1698375283"/>
     <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1698375283"/>
     <Generation Name="SIMULATION" State="GENERATED" Timestamp="1698375283"/>
     <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1698375283"/>
+=======
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1698375114"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1698375114"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1698375114"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1698375114"/>
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="synth\mb_block.v" Type="Verilog">
         <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>

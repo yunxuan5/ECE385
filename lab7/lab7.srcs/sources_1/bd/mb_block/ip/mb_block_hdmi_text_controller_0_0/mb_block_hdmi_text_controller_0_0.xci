@@ -4,7 +4,11 @@
     "xci_name": "mb_block_hdmi_text_controller_0_0",
     "cell_name": "hdmi_text_controller_0",
     "component_reference": "uillinois.edu:user:hdmi_text_controller:1.0",
+<<<<<<< HEAD
     "ip_revision": "25",
+=======
+    "ip_revision": "24",
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
     "gen_directory": "../../../../../../lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0",
     "parameters": {
       "component_parameters": {
@@ -35,7 +39,11 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+<<<<<<< HEAD
         "IPREVISION": [ { "value": "25" } ],
+=======
+        "IPREVISION": [ { "value": "24" } ],
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],

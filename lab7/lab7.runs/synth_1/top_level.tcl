@@ -94,6 +94,7 @@ set_property ip_output_repo e:/ECE385/lab7/lab7.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+<<<<<<< HEAD
 read_verilog -library xil_defaultlib -sv E:/ECE385/lab7/lab7.srcs/sources_1/new/top_level.sv
 add_files E:/ECE385/lab7/lab7.srcs/sources_1/bd/mb_block/mb_block.bd
 set_property used_in_implementation false [get_files -all e:/ECE385/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_microblaze_0_0/mb_block_microblaze_0_0.xdc]
@@ -124,6 +125,38 @@ set_property used_in_implementation false [get_files -all e:/ECE385/lab7/lab7.ge
 set_property used_in_implementation false [get_files -all e:/ECE385/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all e:/ECE385/lab7/lab7.gen/sources_1/bd/mb_block/mb_block_ooc.xdc]
 set_property used_in_implementation false [get_files -all e:/ECE385/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_microblaze_0_0/data/mb_bootloop_le.elf]
+=======
+read_verilog -library xil_defaultlib -sv C:/Users/yuqiwen3/lab7/lab7.srcs/sources_1/new/top_level.sv
+add_files C:/Users/yuqiwen3/lab7/lab7.srcs/sources_1/bd/mb_block/mb_block.bd
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_microblaze_0_0/mb_block_microblaze_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_microblaze_0_0/mb_block_microblaze_0_0_ooc_debug.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_microblaze_0_0/mb_block_microblaze_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_dlmb_v10_0/mb_block_dlmb_v10_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_ilmb_v10_0/mb_block_ilmb_v10_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_dlmb_bram_if_cntlr_0/mb_block_dlmb_bram_if_cntlr_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_ilmb_bram_if_cntlr_0/mb_block_ilmb_bram_if_cntlr_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_lmb_bram_0/mb_block_lmb_bram_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_xbar_0/mb_block_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_microblaze_0_axi_intc_0/mb_block_microblaze_0_axi_intc_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_microblaze_0_axi_intc_0/mb_block_microblaze_0_axi_intc_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_microblaze_0_axi_intc_0/mb_block_microblaze_0_axi_intc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_mdm_1_0/mb_block_mdm_1_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_mdm_1_0/mb_block_mdm_1_0_ooc_trace.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_clk_wiz_1_0/mb_block_clk_wiz_1_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_clk_wiz_1_0/mb_block_clk_wiz_1_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_clk_wiz_1_0/mb_block_clk_wiz_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_rst_clk_wiz_1_100M_0/mb_block_rst_clk_wiz_1_100M_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_rst_clk_wiz_1_100M_0/mb_block_rst_clk_wiz_1_100M_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_rst_clk_wiz_1_100M_0/mb_block_rst_clk_wiz_1_100M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_axi_uartlite_0_0/mb_block_axi_uartlite_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_axi_uartlite_0_0/mb_block_axi_uartlite_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_axi_uartlite_0_0/mb_block_axi_uartlite_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_late.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/mb_block_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_microblaze_0_0/data/mb_bootloop_le.elf]
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being

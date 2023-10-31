@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <GenRun Id="mb_block_hdmi_text_controller_0_0_synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1698375300">
+=======
+<GenRun Id="mb_block_hdmi_text_controller_0_0_synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1698375131">
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
   <File Type="PA-TCL" Name="mb_block_hdmi_text_controller_0_0.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="mb_block_hdmi_text_controller_0_0_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="mb_block_hdmi_text_controller_0_0_reports.tcl"/>

@@ -95,10 +95,17 @@ set_property ip_output_repo e:/ECE385/lab7/lab7.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+<<<<<<< HEAD
 read_ip -quiet E:/ECE385/lab7/lab7.srcs/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/mb_block_hdmi_text_controller_0_0.xci
 set_property used_in_implementation false [get_files -all e:/ECE385/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc]
 set_property used_in_implementation false [get_files -all e:/ECE385/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_late.xdc]
 set_property used_in_implementation false [get_files -all e:/ECE385/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_ooc.xdc]
+=======
+read_ip -quiet C:/Users/yuqiwen3/lab7/lab7.srcs/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/mb_block_hdmi_text_controller_0_0.xci
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_late.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_ooc.xdc]
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being

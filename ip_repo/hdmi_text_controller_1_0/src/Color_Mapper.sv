@@ -19,21 +19,23 @@ module  color_mapper ( input  logic [9:0]  DrawX, DrawY,
                        input logic[3:0]f_r,f_g,f_b,b_r,b_g,b_b,
                        output logic [3:0]  red, green, blue );
     
-
-
-    logic[10:0] shape_size_x = 8;
-    logic[10:0] shape_size_y = 16;
     logic [7:0] a_data;
+<<<<<<< HEAD
     assign a_data=data[6:0];
 //    assign a_data=8'h03;
     logic inv,shape_on;
     assign inv=data[7];
+=======
+    assign a_data=data[6:0]; //the charecter code
+
+    logic inv,shape_on; //declare invert bits and on bits
+    assign inv=data[7]; // invert bit
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
     logic [10:0] sprite_addr;
-    assign sprite_addr=a_data*16+DrawY[3:0];
+    assign sprite_addr= a_data*16 + DrawY[3:0]; //ship 16 rows for each charecter id, then go down y rows. 
     logic [7:0] sprite_data;
     font_rom fr(.addr(sprite_addr), .data(sprite_data));
-    assign shape_on=sprite_data[7-DrawX[2:0]];
- /* Old Ball: Generated square box by checking if the current pixel is within a square of length
+    assign shape_on=sprite_data[7-DrawX[2:0]]; /* Old Ball: Generated square box by checking if the current pixel is within a square of length
     2*BallS, centered at (BallX, BallY).  Note that this requires unsigned comparisons.
 	 
     if ((DrawX >= BallX - Ball_size) &&

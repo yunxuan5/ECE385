@@ -2,6 +2,7 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+<<<<<<< HEAD
 # Start of session at: Thu Oct 26 21:57:38 2023
 # Process ID: 23020
 # Current directory: E:/ECE385/lab7/lab7.runs/impl_1
@@ -9,5 +10,14 @@
 # Log file: E:/ECE385/lab7/lab7.runs/impl_1/top_level.vdi
 # Journal file: E:/ECE385/lab7/lab7.runs/impl_1\vivado.jou
 # Running On: Razer-Blade15, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17073 MB
+=======
+# Start of session at: Thu Oct 26 21:55:49 2023
+# Process ID: 32360
+# Current directory: C:/Users/yuqiwen3/lab7/lab7.runs/impl_1
+# Command line: vivado.exe -log top_level.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_level.tcl -notrace
+# Log file: C:/Users/yuqiwen3/lab7/lab7.runs/impl_1/top_level.vdi
+# Journal file: C:/Users/yuqiwen3/lab7/lab7.runs/impl_1\vivado.jou
+# Running On: ECEB-3022-17, OS: Windows, CPU Frequency: 3312 MHz, CPU Physical cores: 6, Host memory: 16865 MB
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 #-----------------------------------------------------------
 source top_level.tcl -notrace

@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<<<<<<< HEAD
 <EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Oct 26 21:54:43 2023" VIVADOVERSION="2022.2">
+=======
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Oct 26 21:51:54 2023" VIVADOVERSION="2022.2">
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 
   <SYSTEMINFO ARCH="spartan7" DEVICE="7s50" NAME="mb_block" PACKAGE="csga324" SPEEDGRADE="-1"/>
 
@@ -1052,7 +1056,11 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
+<<<<<<< HEAD
     <MODULE COREREVISION="25" FULLNAME="/hdmi_text_controller_0" HWVERSION="1.0" INSTANCE="hdmi_text_controller_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="hdmi_text_controller" VLNV="uillinois.edu:user:hdmi_text_controller:1.0">
+=======
+    <MODULE COREREVISION="24" FULLNAME="/hdmi_text_controller_0" HWVERSION="1.0" INSTANCE="hdmi_text_controller_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="hdmi_text_controller" VLNV="uillinois.edu:user:hdmi_text_controller:1.0">
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="AXI" NAME="AXI_reg" RANGE="4096" USAGE="register"/>

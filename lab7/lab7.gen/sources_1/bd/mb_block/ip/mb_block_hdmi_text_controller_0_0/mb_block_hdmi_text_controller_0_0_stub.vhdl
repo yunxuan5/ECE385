@@ -1,10 +1,17 @@
 -- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+<<<<<<< HEAD
 -- Date        : Thu Oct 26 21:56:36 2023
 -- Host        : Razer-Blade15 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
 --               e:/ECE385/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/mb_block_hdmi_text_controller_0_0_stub.vhdl
+=======
+-- Date        : Thu Oct 26 21:54:51 2023
+-- Host        : ECEB-3022-17 running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode synth_stub
+--               c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/mb_block_hdmi_text_controller_0_0_stub.vhdl
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 -- Design      : mb_block_hdmi_text_controller_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7s50csga324-1
@@ -20,7 +27,11 @@ entity mb_block_hdmi_text_controller_0_0 is
     hdmi_tx_p : out STD_LOGIC_VECTOR ( 2 downto 0 );
     axi_aclk : in STD_LOGIC;
     axi_aresetn : in STD_LOGIC;
+<<<<<<< HEAD
     axi_awaddr : in STD_LOGIC_VECTOR ( 8 downto 0 );
+=======
+    axi_awaddr : in STD_LOGIC_VECTOR ( 11 downto 0 );
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
     axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
     axi_awvalid : in STD_LOGIC;
     axi_awready : out STD_LOGIC;
@@ -31,7 +42,11 @@ entity mb_block_hdmi_text_controller_0_0 is
     axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     axi_bvalid : out STD_LOGIC;
     axi_bready : in STD_LOGIC;
+<<<<<<< HEAD
     axi_araddr : in STD_LOGIC_VECTOR ( 8 downto 0 );
+=======
+    axi_araddr : in STD_LOGIC_VECTOR ( 11 downto 0 );
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
     axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
     axi_arvalid : in STD_LOGIC;
     axi_arready : out STD_LOGIC;
@@ -47,7 +62,11 @@ architecture stub of mb_block_hdmi_text_controller_0_0 is
 attribute syn_black_box : boolean;
 attribute black_box_pad_pin : string;
 attribute syn_black_box of stub : architecture is true;
+<<<<<<< HEAD
 attribute black_box_pad_pin of stub : architecture is "hdmi_clk_n,hdmi_clk_p,hdmi_tx_n[2:0],hdmi_tx_p[2:0],axi_aclk,axi_aresetn,axi_awaddr[8:0],axi_awprot[2:0],axi_awvalid,axi_awready,axi_wdata[31:0],axi_wstrb[3:0],axi_wvalid,axi_wready,axi_bresp[1:0],axi_bvalid,axi_bready,axi_araddr[8:0],axi_arprot[2:0],axi_arvalid,axi_arready,axi_rdata[31:0],axi_rresp[1:0],axi_rvalid,axi_rready";
+=======
+attribute black_box_pad_pin of stub : architecture is "hdmi_clk_n,hdmi_clk_p,hdmi_tx_n[2:0],hdmi_tx_p[2:0],axi_aclk,axi_aresetn,axi_awaddr[11:0],axi_awprot[2:0],axi_awvalid,axi_awready,axi_wdata[31:0],axi_wstrb[3:0],axi_wvalid,axi_wready,axi_bresp[1:0],axi_bvalid,axi_bready,axi_araddr[11:0],axi_arprot[2:0],axi_arvalid,axi_arready,axi_rdata[31:0],axi_rresp[1:0],axi_rvalid,axi_rready";
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 attribute X_CORE_INFO : string;
 attribute X_CORE_INFO of stub : architecture is "hdmi_text_controller_v1_0,Vivado 2022.2";
 begin

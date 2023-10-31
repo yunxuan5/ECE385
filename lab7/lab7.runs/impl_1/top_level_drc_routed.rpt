@@ -1,8 +1,13 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+<<<<<<< HEAD
 | Date         : Thu Oct 26 22:01:07 2023
 | Host         : Razer-Blade15 running 64-bit major release  (build 9200)
+=======
+| Date         : Thu Oct 26 22:07:09 2023
+| Host         : ECEB-3022-17 running 64-bit major release  (build 9200)
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 | Command      : report_drc -file top_level_drc_routed.rpt -pb top_level_drc_routed.pb -rpx top_level_drc_routed.rpx
 | Design       : top_level
 | Device       : xc7s50csga324-1

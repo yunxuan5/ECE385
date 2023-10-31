@@ -1,10 +1,17 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+<<<<<<< HEAD
 // Date        : Thu Oct 26 21:56:36 2023
 // Host        : Razer-Blade15 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               e:/ECE385/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/mb_block_hdmi_text_controller_0_0_stub.v
+=======
+// Date        : Thu Oct 26 21:54:51 2023
+// Host        : ECEB-3022-17 running 64-bit major release  (build 9200)
+// Command     : write_verilog -force -mode synth_stub
+//               c:/Users/yuqiwen3/lab7/lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/mb_block_hdmi_text_controller_0_0_stub.v
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 // Design      : mb_block_hdmi_text_controller_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7s50csga324-1
@@ -18,14 +25,22 @@ module mb_block_hdmi_text_controller_0_0(hdmi_clk_n, hdmi_clk_p, hdmi_tx_n, hdmi
   axi_aclk, axi_aresetn, axi_awaddr, axi_awprot, axi_awvalid, axi_awready, axi_wdata, axi_wstrb, 
   axi_wvalid, axi_wready, axi_bresp, axi_bvalid, axi_bready, axi_araddr, axi_arprot, axi_arvalid, 
   axi_arready, axi_rdata, axi_rresp, axi_rvalid, axi_rready)
+<<<<<<< HEAD
 /* synthesis syn_black_box black_box_pad_pin="hdmi_clk_n,hdmi_clk_p,hdmi_tx_n[2:0],hdmi_tx_p[2:0],axi_aclk,axi_aresetn,axi_awaddr[8:0],axi_awprot[2:0],axi_awvalid,axi_awready,axi_wdata[31:0],axi_wstrb[3:0],axi_wvalid,axi_wready,axi_bresp[1:0],axi_bvalid,axi_bready,axi_araddr[8:0],axi_arprot[2:0],axi_arvalid,axi_arready,axi_rdata[31:0],axi_rresp[1:0],axi_rvalid,axi_rready" */;
+=======
+/* synthesis syn_black_box black_box_pad_pin="hdmi_clk_n,hdmi_clk_p,hdmi_tx_n[2:0],hdmi_tx_p[2:0],axi_aclk,axi_aresetn,axi_awaddr[11:0],axi_awprot[2:0],axi_awvalid,axi_awready,axi_wdata[31:0],axi_wstrb[3:0],axi_wvalid,axi_wready,axi_bresp[1:0],axi_bvalid,axi_bready,axi_araddr[11:0],axi_arprot[2:0],axi_arvalid,axi_arready,axi_rdata[31:0],axi_rresp[1:0],axi_rvalid,axi_rready" */;
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
   output hdmi_clk_n;
   output hdmi_clk_p;
   output [2:0]hdmi_tx_n;
   output [2:0]hdmi_tx_p;
   input axi_aclk;
   input axi_aresetn;
+<<<<<<< HEAD
   input [8:0]axi_awaddr;
+=======
+  input [11:0]axi_awaddr;
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
   input [2:0]axi_awprot;
   input axi_awvalid;
   output axi_awready;
@@ -36,7 +51,11 @@ module mb_block_hdmi_text_controller_0_0(hdmi_clk_n, hdmi_clk_p, hdmi_tx_n, hdmi
   output [1:0]axi_bresp;
   output axi_bvalid;
   input axi_bready;
+<<<<<<< HEAD
   input [8:0]axi_araddr;
+=======
+  input [11:0]axi_araddr;
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
   input [2:0]axi_arprot;
   input axi_arvalid;
   output axi_arready;

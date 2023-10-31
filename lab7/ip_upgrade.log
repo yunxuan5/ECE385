@@ -1,6 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+<<<<<<< HEAD
 | Date         : Thu Oct 26 21:54:29 2023
 | Host         : Razer-Blade15 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
@@ -24,6 +25,10 @@ Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
 | Date         : Thu Oct 26 21:51:48 2023
 | Host         : Razer-Blade15 running 64-bit major release  (build 9200)
+=======
+| Date         : Thu Oct 26 21:51:41 2023
+| Host         : ECEB-3022-17 running 64-bit major release  (build 9200)
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 | Command      : upgrade_ip
 | Device       : xc7s50csga324-1
 ------------------------------------------------------------------------------------
@@ -43,8 +48,13 @@ SUCCESS in the upgrade of mb_block_hdmi_text_controller_0_0 (uillinois.edu:user:
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+<<<<<<< HEAD
 | Date         : Thu Oct 26 21:41:47 2023
 | Host         : Razer-Blade15 running 64-bit major release  (build 9200)
+=======
+| Date         : Thu Oct 26 21:49:45 2023
+| Host         : ECEB-3022-17 running 64-bit major release  (build 9200)
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 | Command      : upgrade_ip
 | Device       : xc7s50csga324-1
 ------------------------------------------------------------------------------------
@@ -64,8 +74,13 @@ SUCCESS in the upgrade of mb_block_hdmi_text_controller_0_0 (uillinois.edu:user:
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+<<<<<<< HEAD
 | Date         : Thu Oct 26 21:09:29 2023
 | Host         : Razer-Blade15 running 64-bit major release  (build 9200)
+=======
+| Date         : Thu Oct 26 21:08:40 2023
+| Host         : ECEB-3022-17 running 64-bit major release  (build 9200)
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 | Command      : upgrade_ip
 | Device       : xc7s50csga324-1
 ------------------------------------------------------------------------------------
@@ -85,8 +100,13 @@ SUCCESS in the upgrade of mb_block_hdmi_text_controller_0_0 (uillinois.edu:user:
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+<<<<<<< HEAD
 | Date         : Thu Oct 26 20:46:39 2023
 | Host         : Razer-Blade15 running 64-bit major release  (build 9200)
+=======
+| Date         : Thu Oct 26 20:36:35 2023
+| Host         : ECEB-3022-17 running 64-bit major release  (build 9200)
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 | Command      : upgrade_ip
 | Device       : xc7s50csga324-1
 ------------------------------------------------------------------------------------
@@ -96,6 +116,7 @@ Upgrade Log for IP 'mb_block_hdmi_text_controller_0_0'
 1. Summary
 ----------
 
+<<<<<<< HEAD
 CAUTION (success, with warnings) in the upgrade of mb_block_hdmi_text_controller_0_0 (uillinois.edu:user:hdmi_text_controller:1.0) from (Rev. 20) to (Rev. 21)
 
 After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
@@ -193,6 +214,9 @@ set_property -dict "\
   CONFIG.hdmi_clk_p.INSERT_VIP {0} \
   CONFIG.hdmi_clk_p.PHASE {0.0} " [get_ips mb_block_hdmi_text_controller_0_0]
 
+=======
+SUCCESS in the upgrade of mb_block_hdmi_text_controller_0_0 (uillinois.edu:user:hdmi_text_controller:1.0) from (Rev. 20) to (Rev. 21)
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 
 
 

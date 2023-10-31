@@ -1,8 +1,13 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+<<<<<<< HEAD
 | Date         : Thu Oct 26 21:56:36 2023
 | Host         : Razer-Blade15 running 64-bit major release  (build 9200)
+=======
+| Date         : Thu Oct 26 21:54:51 2023
+| Host         : ECEB-3022-17 running 64-bit major release  (build 9200)
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 | Command      : report_utilization -file mb_block_hdmi_text_controller_0_0_utilization_synth.rpt -pb mb_block_hdmi_text_controller_0_0_utilization_synth.pb
 | Design       : mb_block_hdmi_text_controller_0_0
 | Device       : xc7s50csga324-1
@@ -28,6 +33,7 @@ Table of Contents
 1. Slice Logic
 --------------
 
+<<<<<<< HEAD
 +----------------------------+------+-------+------------+-----------+-------+
 |          Site Type         | Used | Fixed | Prohibited | Available | Util% |
 +----------------------------+------+-------+------------+-----------+-------+
@@ -42,6 +48,22 @@ Table of Contents
 | F7 Muxes                   |  784 |     0 |          0 |     16300 |  4.81 |
 | F8 Muxes                   |  392 |     0 |          0 |      8150 |  4.81 |
 +----------------------------+------+-------+------------+-----------+-------+
+=======
++----------------------------+-------+-------+------------+-----------+-------+
+|          Site Type         |  Used | Fixed | Prohibited | Available | Util% |
++----------------------------+-------+-------+------------+-----------+-------+
+| Slice LUTs*                | 13839 |     0 |          0 |     32600 | 42.45 |
+|   LUT as Logic             | 13800 |     0 |          0 |     32600 | 42.33 |
+|   LUT as Memory            |    39 |     0 |          0 |      9600 |  0.41 |
+|     LUT as Distributed RAM |     0 |     0 |            |           |       |
+|     LUT as Shift Register  |    39 |     0 |            |           |       |
+| Slice Registers            | 19844 |     0 |          0 |     65200 | 30.44 |
+|   Register as Flip Flop    | 19844 |     0 |          0 |     65200 | 30.44 |
+|   Register as Latch        |     0 |     0 |          0 |     65200 |  0.00 |
+| F7 Muxes                   |  5083 |     0 |          0 |     16300 | 31.18 |
+| F8 Muxes                   |  2498 |     0 |          0 |      8150 | 30.65 |
++----------------------------+-------+-------+------------+-----------+-------+
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
 Warning! LUT value is adjusted to account for LUT combining.
 
@@ -59,9 +81,15 @@ Warning! LUT value is adjusted to account for LUT combining.
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
+<<<<<<< HEAD
 | 82    |          Yes |           - |        Reset |
 | 1     |          Yes |         Set |            - |
 | 3378  |          Yes |       Reset |            - |
+=======
+| 208   |          Yes |           - |        Reset |
+| 1     |          Yes |         Set |            - |
+| 19635 |          Yes |       Reset |            - |
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 +-------+--------------+-------------+--------------+
 
 
@@ -147,6 +175,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 7. Primitives
 -------------
 
+<<<<<<< HEAD
 +------------+------+---------------------+
 |  Ref Name  | Used | Functional Category |
 +------------+------+---------------------+
@@ -168,6 +197,29 @@ Warning! LUT value is adjusted to account for LUT combining.
 | MMCME2_ADV |    1 |               Clock |
 | FDSE       |    1 |        Flop & Latch |
 +------------+------+---------------------+
+=======
++------------+-------+---------------------+
+|  Ref Name  |  Used | Functional Category |
++------------+-------+---------------------+
+| FDRE       | 19635 |        Flop & Latch |
+| LUT6       | 12673 |                 LUT |
+| MUXF7      |  5083 |               MuxFx |
+| MUXF8      |  2498 |               MuxFx |
+| LUT5       |   856 |                 LUT |
+| LUT4       |   238 |                 LUT |
+| FDCE       |   208 |        Flop & Latch |
+| LUT3       |   149 |                 LUT |
+| LUT2       |   123 |                 LUT |
+| SRL16E     |    39 |  Distributed Memory |
+| OSERDESE2  |     8 |                  IO |
+| OBUFDS     |     4 |                  IO |
+| CARRY4     |     4 |          CarryLogic |
+| BUFG       |     3 |               Clock |
+| LUT1       |     2 |                 LUT |
+| MMCME2_ADV |     1 |               Clock |
+| FDSE       |     1 |        Flop & Latch |
++------------+-------+---------------------+
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 
 
 8. Black Boxes

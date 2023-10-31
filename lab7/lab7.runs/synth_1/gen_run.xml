@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1698375300" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/top_level.dcp">
+=======
+<GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1698375132" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/top_level.dcp">
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
   <File Type="PA-TCL" Name="top_level.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="top_level_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="top_level_reports.tcl"/>

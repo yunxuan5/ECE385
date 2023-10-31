@@ -35,20 +35,21 @@ always_comb begin
     end
 end
 
-assign DrawX=10'b0000100111;
-assign DrawY=21;
-logic [9:0]x,y;
+assign DrawX=600;
+assign DrawY=400;
+logic [11:0]x,y;
 assign x=(DrawX[9:3]);
 assign y=(DrawY[9:4])*80;
-logic [10:0]addr_o,addr;
+logic [11:0]addr_o,addr;
 assign addr_o=(x+y);
 assign addr=(x+y)>>2;
 logic [7:0]data;
 logic [31:0]data_out;
 assign data_out=slv_regs[addr];
 logic [1:0]z;
-assign z=addr_o[1:0];
+
 always_comb begin
+    assign z=addr_o[1:0];
     case (addr_o[1:0])
         2'b00: data = data_out[7:0];
         2'b01: data = data_out[15:8];

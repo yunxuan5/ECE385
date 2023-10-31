@@ -1,10 +1,18 @@
 <?xml version="1.0"?>
 <Runs Version="1" Minor="0">
+<<<<<<< HEAD
 	<Run Id="mb_block_hdmi_text_controller_0_0_synth_1" LaunchDir="E:/ECE385/lab7/lab7.runs/mb_block_hdmi_text_controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
 	<Run Id="synth_1" LaunchDir="E:/ECE385/lab7/lab7.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
 		<Parent Id="mb_block_hdmi_text_controller_0_0_synth_1"/>
 	</Run>
 	<Run Id="impl_1" LaunchDir="E:/ECE385/lab7/lab7.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+=======
+	<Run Id="mb_block_hdmi_text_controller_0_0_synth_1" LaunchDir="C:/Users/yuqiwen3/lab7/lab7.runs/mb_block_hdmi_text_controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/yuqiwen3/lab7/lab7.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="mb_block_hdmi_text_controller_0_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/yuqiwen3/lab7/lab7.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 		<Parent Id="synth_1"/>
 		<Parent Id="mb_block_hdmi_text_controller_0_0_synth_1"/>
 	</Run>

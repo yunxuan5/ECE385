@@ -153,11 +153,19 @@ vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../lab7.gen/sources_1/bd/mb_b
 "../../../bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.v" \
 
 vlog -work xil_defaultlib  -sv2k12 "+incdir+../../../../lab7.gen/sources_1/bd/mb_block/ipshared/ec67/hdl" "+incdir+../../../../lab7.gen/sources_1/bd/mb_block/ipshared/7698" "+incdir+../../../../lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0" \
+<<<<<<< HEAD
 "../../../bd/mb_block/ipshared/ce44/src/Color_Mapper.sv" \
 "../../../bd/mb_block/ipshared/ce44/src/VGA_controller.sv" \
 "../../../bd/mb_block/ipshared/ce44/src/font_rom.sv" \
 "../../../bd/mb_block/ipshared/ce44/src/hdmi_text_controller_v1_0_AXI.sv" \
 "../../../bd/mb_block/ipshared/ce44/src/hdmi_text_controller_v1_0.sv" \
+=======
+"../../../bd/mb_block/ipshared/f1a4/src/Color_Mapper.sv" \
+"../../../bd/mb_block/ipshared/f1a4/src/VGA_controller.sv" \
+"../../../bd/mb_block/ipshared/f1a4/src/font_rom.sv" \
+"../../../bd/mb_block/ipshared/f1a4/src/hdmi_text_controller_v1_0_AXI.sv" \
+"../../../bd/mb_block/ipshared/f1a4/src/hdmi_text_controller_v1_0.sv" \
+>>>>>>> 5e31c62a10fc748feadc3df9e01028d24cab8530
 "../../../bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/sim/mb_block_hdmi_text_controller_0_0.sv" \
 
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../lab7.gen/sources_1/bd/mb_block/ipshared/ec67/hdl" "+incdir+../../../../lab7.gen/sources_1/bd/mb_block/ipshared/7698" "+incdir+../../../../lab7.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_0" \
