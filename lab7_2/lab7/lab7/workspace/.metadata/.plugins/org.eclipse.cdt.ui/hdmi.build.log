@@ -1,0 +1,55 @@
+01:22:51 **** Incremental Build of configuration Debug for project hdmi ****
+make all 
+'Building file: ../src/hdmi_text_controller.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hdmi_text_controller.o" -IC:/Users/yuqiwen3/lab7/workspace/top_level/export/top_level/sw/top_level/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/hdmi_text_controller.d" -MT"src/hdmi_text_controller.o" -o "src/hdmi_text_controller.o" "../src/hdmi_text_controller.c"
+In file included from ../src/hdmi_text_controller.c:4:
+../src/hdmi_text_controller.h:92:54: warning: initialization of 'volatile struct HDMI_TEXT_STRUCT *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   92 | static volatile struct HDMI_TEXT_STRUCT* hdmi_ctrl = 0x44a00000;
+      |                                                      ^~~~~~~~~~
+../src/hdmi_text_controller.c: In function 'hdmiTestWeek1':
+../src/hdmi_text_controller.c:51:46: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+   51 |                 printf ("Row: %d, Checksum: %x, Read-back Checksum: %x\n\r", j, checksum[j], readsum[j]);
+      |                                             ~^                                  ~~~~~~~~~~~
+      |                                              |                                          |
+      |                                              unsigned int                               uint32_t {aka long unsigned int}
+      |                                             %lx
+../src/hdmi_text_controller.c:51:70: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+   51 |                 printf ("Row: %d, Checksum: %x, Read-back Checksum: %x\n\r", j, checksum[j], readsum[j]);
+      |                                                                     ~^                       ~~~~~~~~~~
+      |                                                                      |                              |
+      |                                                                      unsigned int                   uint32_t {aka long unsigned int}
+      |                                                                     %lx
+'Finished building: ../src/hdmi_text_controller.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/yuqiwen3/lab7/workspace/top_level/export/top_level/sw/top_level/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:
+../src/hdmi_text_controller.h:92:54: warning: initialization of 'volatile struct HDMI_TEXT_STRUCT *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   92 | static volatile struct HDMI_TEXT_STRUCT* hdmi_ctrl = 0x44a00000;
+      |                                                      ^~~~~~~~~~
+../src/hdmi_text_controller.h:92:42: warning: 'hdmi_ctrl' defined but not used [-Wunused-variable]
+   92 | static volatile struct HDMI_TEXT_STRUCT* hdmi_ctrl = 0x44a00000;
+      |                                          ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/yuqiwen3/lab7/workspace/top_level/export/top_level/sw/top_level/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: hdmi.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/yuqiwen3/lab7/workspace/top_level/export/top_level/sw/top_level/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hdmi.elf"  ./src/hdmi_text_controller.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hdmi.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size hdmi.elf  |tee "hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86040	   1728	   3168	  90936	  16338	hdmi.elf
+'Finished building: hdmi.elf.size'
+' '
+
+01:22:54 Build Finished (took 2s.162ms)
+
